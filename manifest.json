@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Rishi's Timer",
+    "version": "1.0",
+    "description": "Displays the countdown to the end of the year on every web page.",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
